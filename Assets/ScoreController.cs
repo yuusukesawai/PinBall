@@ -17,9 +17,9 @@ public class ScoreController : MonoBehaviour
     void Start()
     {
         this.ScoreText = UnityEngine.GameObject.Find("ScoreText");
-
+        Debug.Log(gameObject.name);
     }
-
+    
 
 
     // Update is called once per frame
